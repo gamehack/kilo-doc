@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setup And Installation - Kilo Code 文档</title>
+  <meta name="description" content="Setup And Installation - Kilo Code 中文文档">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="header-left">
+        <button class="sidebar-toggle" aria-label="菜单">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <a href="../../index.html" class="logo">
+          <span class="logo-icon">K</span>
+          <span class="logo-text">Kilo Code</span>
+          <span class="logo-badge">文档</span>
+        </a>
+      </div>
+      <div class="header-right">
+        <button class="search-btn" aria-label="搜索">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <kbd>Ctrl+K</kbd>
+        </button>
+        <button class="theme-toggle" aria-label="切换主题"></button>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <a href="../../getting-started/index.html" class="active">入门</a><a href="../../code-with-ai/index.html" class="">AI 编码</a><a href="../../customize/index.html" class="">定制化</a><a href="../../collaborate/index.html" class="">协作</a><a href="../../automate/index.html" class="">自动化</a><a href="../../deploy-secure/index.html" class="">部署</a><a href="../../gateway/index.html" class="">Gateway</a><a href="../../kiloclaw/index.html" class="">KiloClaw</a><a href="../../contributing/index.html" class="">贡献</a>
+    </nav>
+  </header>
+
+  <div class="page-layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+<div class="sidebar-section-title">介绍</div>
+<div class="sidebar-sub">
+<a href="../../getting-started/index.html" class="sidebar-link">概述</a>
+<a href="../../getting-started/installing.html" class="sidebar-link">安装</a>
+<a href="../../getting-started/quickstart.html" class="sidebar-link">快速开始</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">配置</div>
+<div class="sidebar-sub">
+<a href="../../getting-started/setup-authentication.html" class="sidebar-link">设置与认证</a>
+<a href="../../getting-started/using-kilo-for-free.html" class="sidebar-link">免费使用</a>
+<a href="../../getting-started/byok.html" class="sidebar-link">自带密钥 (BYOK)</a>
+<a href="../../ai-providers/index.html" class="sidebar-link">AI 提供商</a>
+<a href="../../getting-started/settings.html" class="sidebar-link">设置</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">帮助</div>
+<div class="sidebar-sub">
+<a href="../../getting-started/faq.html" class="sidebar-link">常见问题</a>
+<a href="../../getting-started/migrating.html" class="sidebar-link">从 Cursor 迁移</a>
+<a href="../../getting-started/troubleshooting.html" class="sidebar-link">故障排除</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">平台</div>
+<div class="sidebar-sub">
+<a href="../../code-with-ai/platforms/vscode.html" class="sidebar-link">VS Code</a>
+<a href="../../code-with-ai/platforms/jetbrains.html" class="sidebar-link">JetBrains</a>
+<a href="../../code-with-ai/platforms/cli.html" class="sidebar-link">CLI</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">智能体</div>
+<div class="sidebar-sub">
+<a href="../../code-with-ai/agents/chat-interface.html" class="sidebar-link">聊天界面</a>
+<a href="../../code-with-ai/agents/using-agents.html" class="sidebar-link">使用智能体</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">功能</div>
+<div class="sidebar-sub">
+<a href="../../code-with-ai/features/autocomplete.html" class="sidebar-link">自动补全</a>
+<a href="../../code-with-ai/features/browser-use.html" class="sidebar-link">浏览器使用</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">定制化</div>
+<div class="sidebar-sub">
+<a href="../../customize/index.html" class="sidebar-link">概述</a>
+<a href="../../customize/custom-modes.html" class="sidebar-link">自定义模式</a>
+<a href="../../customize/custom-rules.html" class="sidebar-link">自定义规则</a>
+<a href="../../customize/custom-instructions.html" class="sidebar-link">自定义指令</a>
+<a href="../../customize/skills.html" class="sidebar-link">技能</a>
+<a href="../../customize/workflows.html" class="sidebar-link">工作流</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">上下文</div>
+<div class="sidebar-sub">
+<a href="../../customize/context/codebase-indexing.html" class="sidebar-link">代码库索引</a>
+<a href="../../customize/context/large-projects.html" class="sidebar-link">大型项目</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">协作</div>
+<div class="sidebar-sub">
+<a href="../../collaborate/index.html" class="sidebar-link">概述</a>
+<a href="../../collaborate/sessions-sharing.html" class="sidebar-link">会话与共享</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">团队</div>
+<div class="sidebar-sub">
+<a href="../../collaborate/teams/about-plans.html" class="sidebar-link">计划概览</a>
+<a href="../../collaborate/teams/getting-started.html" class="sidebar-link">团队入门</a>
+<a href="../../collaborate/teams/team-management.html" class="sidebar-link">团队管理</a>
+<a href="../../collaborate/teams/analytics.html" class="sidebar-link">分析</a>
+<a href="../../collaborate/teams/billing.html" class="sidebar-link">计费</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">企业</div>
+<div class="sidebar-sub">
+<a href="../../collaborate/enterprise/audit-logs.html" class="sidebar-link">审计日志</a>
+<a href="../../collaborate/enterprise/sso.html" class="sidebar-link">SSO</a>
+<a href="../../collaborate/enterprise/model-access-controls.html" class="sidebar-link">模型访问控制</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">自动化</div>
+<div class="sidebar-sub">
+<a href="../../automate/index.html" class="sidebar-link">概述</a>
+<a href="../../automate/code-reviews/overview.html" class="sidebar-link">代码审查</a>
+<a href="../../automate/agent-manager.html" class="sidebar-link">Agent Manager</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">MCP</div>
+<div class="sidebar-sub">
+<a href="../../automate/mcp/overview.html" class="sidebar-link">MCP 概述</a>
+<a href="../../automate/mcp/what-is-mcp.html" class="sidebar-link">什么是 MCP？</a>
+<a href="../../automate/mcp/using-in-kilo-code.html" class="sidebar-link">在 Kilo Code 中使用</a>
+<a href="../../automate/mcp/server-transports.html" class="sidebar-link">服务器传输</a>
+<a href="../../automate/mcp/mcp-vs-api.html" class="sidebar-link">MCP vs API</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">扩展</div>
+<div class="sidebar-sub">
+<a href="../../automate/extending/local-models.html" class="sidebar-link">本地模型</a>
+<a href="../../automate/extending/shell-integration.html" class="sidebar-link">Shell 集成</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">部署与安全</div>
+<div class="sidebar-sub">
+<a href="../../deploy-secure/index.html" class="sidebar-link">概述</a>
+<a href="../../deploy-secure/deploy.html" class="sidebar-link">部署</a>
+<a href="../../deploy-secure/managed-indexing.html" class="sidebar-link">托管索引</a>
+<a href="../../deploy-secure/security-reviews.html" class="sidebar-link">安全审查</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">AI Gateway</div>
+<div class="sidebar-sub">
+<a href="../../gateway/index.html" class="sidebar-link">概述</a>
+<a href="../../gateway/quickstart.html" class="sidebar-link">快速开始</a>
+<a href="../../gateway/authentication.html" class="sidebar-link">认证</a>
+<a href="../../gateway/models-and-providers.html" class="sidebar-link">模型与提供商</a>
+<a href="../../gateway/streaming.html" class="sidebar-link">流式传输</a>
+<a href="../../gateway/api-reference.html" class="sidebar-link">API 参考</a>
+<a href="../../gateway/usage-and-billing.html" class="sidebar-link">使用与计费</a>
+<a href="../../gateway/sdks-and-frameworks.html" class="sidebar-link">SDK 与框架</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">KiloClaw</div>
+<div class="sidebar-sub">
+<a href="../../kiloclaw/index.html" class="sidebar-link">概述</a>
+<a href="../../kiloclaw/dashboard.html" class="sidebar-link">仪表盘</a>
+<a href="../../kiloclaw/chat-platforms.html" class="sidebar-link">聊天平台</a>
+<a href="../../kiloclaw/troubleshooting.html" class="sidebar-link">故障排除</a>
+<a href="../../kiloclaw/pricing.html" class="sidebar-link">定价</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">云提供商</div>
+<div class="sidebar-sub">
+<a href="../../ai-providers/index.html" class="sidebar-link">概述</a>
+<a href="../../ai-providers/anthropic.html" class="sidebar-link">Anthropic</a>
+<a href="../../ai-providers/openai.html" class="sidebar-link">OpenAI</a>
+<a href="../../ai-providers/gemini.html" class="sidebar-link">Google Gemini</a>
+<a href="../../ai-providers/bedrock.html" class="sidebar-link">AWS Bedrock</a>
+<a href="../../ai-providers/deepseek.html" class="sidebar-link">DeepSeek</a>
+<a href="../../ai-providers/mistral.html" class="sidebar-link">Mistral</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">本地</div>
+<div class="sidebar-sub">
+<a href="../../ai-providers/ollama.html" class="sidebar-link">Ollama</a>
+<a href="../../ai-providers/lmstudio.html" class="sidebar-link">LM Studio</a>
+<a href="../../ai-providers/openai-compatible.html" class="sidebar-link">OpenAI 兼容</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">网关</div>
+<div class="sidebar-sub">
+<a href="../../ai-providers/openrouter.html" class="sidebar-link">OpenRouter</a>
+<a href="../../ai-providers/glama.html" class="sidebar-link">Glama</a>
+<a href="../../ai-providers/requesty.html" class="sidebar-link">Requesty</a>
+</div></div>
+<div class="sidebar-section">
+<div class="sidebar-section-title">贡献</div>
+<div class="sidebar-sub">
+<a href="../../contributing/index.html" class="sidebar-link">概述</a>
+<a href="../../contributing/development-environment.html" class="sidebar-link">开发环境</a>
+<a href="../../contributing/architecture.html" class="sidebar-link">架构概述</a>
+</div></div>
+    </aside>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <main class="content">
+      <article class="doc-content">
+        <h1>Getting Started / Faq / Setup And Installation</h1>
+<p>此页面正在翻译中。你可以<a href="https://kilo.ai/docs/getting-started/faq/setup-and-installation" target="_blank">查看英文原文</a>。</p>
+<div class="callout callout-info">
+<div class="callout-title">ℹ️ 翻译中</div>
+<p>我们正在将此页面翻译为中文。在翻译完成之前，你可以点击上方链接查看英文原版。</p>
+</div>
+        <div class="page-footer">
+          <a href="https://kilo.ai/docs/getting-started/faq/setup-and-installation" target="_blank">查看原文 →</a>
+        </div>
+      </article>
+    </main>
+
+    <aside class="toc" id="toc">
+      <div class="toc-title">本页目录</div>
+      <nav class="toc-nav" id="toc-nav"></nav>
+    </aside>
+  </div>
+
+  <div class="search-modal" id="search-modal">
+    <div class="search-overlay"></div>
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="搜索文档..." id="search-input">
+      <div class="search-results" id="search-results"></div>
+    </div>
+  </div>
+
+  <script src="../../js/main.js"></script>
+  <script src="../../js/search-index.js"></script>
+</body>
+</html>
